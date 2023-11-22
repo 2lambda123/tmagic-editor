@@ -73,7 +73,7 @@
     "prettier": "^2.8.7",
     "recast": "^0.20.4",
     "rimraf": "^3.0.2",
-    "semver": "^7.3.7",
+    "semver": "^7.5.2",
     "serialize-javascript": "^6.0.0",
     "shx": "^0.3.4",
     "typescript": "^5.0.4",

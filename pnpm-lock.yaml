@@ -1,9 +1,5 @@
 lockfileVersion: '6.0'
 
-settings:
-  autoInstallPeers: true
-  excludeLinksFromLockfile: false
-
 importers:
 
   .:
@@ -105,8 +101,8 @@ importers:
         specifier: ^3.0.2
         version: 3.0.2
       semver:
-        specifier: ^7.3.7
-        version: 7.3.7
+        specifier: ^7.5.2
+        version: 7.5.2
       serialize-javascript:
         specifier: ^6.0.0
         version: 6.0.0
@@ -192,7 +188,7 @@ importers:
         version: 5.0.4
       vite:
         specifier: ^4.4.4
-        version: 4.4.4(@types/node@15.12.4)(sass@1.35.1)(terser@5.14.2)
+        version: 4.4.4(@types/node@18.15.11)(sass@1.35.1)(terser@5.14.2)
 
   packages/data-source:
     dependencies:
@@ -226,7 +222,7 @@ importers:
         version: 4.9.5
       vite:
         specifier: ^4.4.4
-        version: 4.4.4(@types/node@15.12.4)(sass@1.35.1)(terser@5.14.2)
+        version: 4.4.4(@types/node@18.15.11)(sass@1.35.1)(terser@5.14.2)
 
   packages/dep:
     dependencies:
@@ -276,7 +272,7 @@ importers:
         version: 5.0.4
       vite:
         specifier: ^4.4.4
-        version: 4.4.4(@types/node@15.12.4)(sass@1.35.1)(terser@5.14.2)
+        version: 4.4.4(@types/node@18.15.11)(sass@1.35.1)(terser@5.14.2)
       vue-tsc:
         specifier: ^1.6.5
         version: 1.6.5(typescript@5.0.4)
@@ -379,7 +375,7 @@ importers:
         version: 5.0.4
       vite:
         specifier: ^4.4.4
-        version: 4.4.4(@types/node@15.12.4)(sass@1.35.1)(terser@5.14.2)
+        version: 4.4.4(@types/node@18.15.11)(sass@1.35.1)(terser@5.14.2)
       vue-tsc:
         specifier: ^1.6.5
         version: 1.6.5(typescript@5.0.4)
@@ -407,7 +403,7 @@ importers:
         version: 5.0.4
       vite:
         specifier: ^4.4.4
-        version: 4.4.4(@types/node@15.12.4)(sass@1.35.1)(terser@5.14.2)
+        version: 4.4.4(@types/node@18.15.11)(sass@1.35.1)(terser@5.14.2)
 
   packages/form:
     dependencies:
@@ -462,7 +458,7 @@ importers:
         version: 5.0.4
       vite:
         specifier: ^4.4.4
-        version: 4.4.4(@types/node@15.12.4)(sass@1.35.1)(terser@5.14.2)
+        version: 4.4.4(@types/node@18.15.11)(sass@1.35.1)(terser@5.14.2)
       vue-tsc:
         specifier: ^1.6.5
         version: 1.6.5(typescript@5.0.4)
@@ -480,7 +476,7 @@ importers:
         version: 5.0.4
       vite:
         specifier: ^4.4.4
-        version: 4.4.4(@types/node@15.12.4)(sass@1.35.1)(terser@5.14.2)
+        version: 4.4.4(@types/node@18.15.11)(sass@1.35.1)(terser@5.14.2)
 
   packages/stage:
     dependencies:
@@ -532,7 +528,7 @@ importers:
         version: 5.0.4
       vite:
         specifier: ^4.4.4
-        version: 4.4.4(@types/node@15.12.4)(sass@1.35.1)(terser@5.14.2)
+        version: 4.4.4(@types/node@18.15.11)(sass@1.35.1)(terser@5.14.2)
 
   packages/table:
     dependencies:
@@ -581,7 +577,7 @@ importers:
         version: 5.0.4
       vite:
         specifier: ^4.4.4
-        version: 4.4.4(@types/node@15.12.4)(sass@1.35.1)(terser@5.14.2)
+        version: 4.4.4(@types/node@18.15.11)(sass@1.35.1)(terser@5.14.2)
       vue-tsc:
         specifier: ^1.6.5
         version: 1.6.5(typescript@5.0.4)
@@ -615,7 +611,7 @@ importers:
         version: 5.0.4
       vite:
         specifier: ^4.4.4
-        version: 4.4.4(@types/node@15.12.4)(sass@1.35.1)(terser@5.14.2)
+        version: 4.4.4(@types/node@18.15.11)(sass@1.35.1)(terser@5.14.2)
 
   packages/ui:
     dependencies:
@@ -727,7 +723,7 @@ importers:
         version: 5.0.4
       vite:
         specifier: ^4.4.4
-        version: 4.4.4(@types/node@15.12.4)(sass@1.35.1)(terser@5.14.2)
+        version: 4.4.4(@types/node@18.15.11)(sass@1.35.1)(terser@5.14.2)
 
   playground:
     dependencies:
@@ -1245,7 +1241,7 @@ packages:
       debug: 4.3.4
       gensync: 1.0.0-beta.2
       json5: 2.2.3
-      semver: 6.3.0
+      semver: 6.3.1
     transitivePeerDependencies:
       - supports-color
 
@@ -1267,7 +1263,7 @@ packages:
       debug: 4.3.4
       gensync: 1.0.0-beta.2
       json5: 2.2.3
-      semver: 6.3.0
+      semver: 6.3.1
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -1306,7 +1302,7 @@ packages:
       '@nicolo-ribaudo/eslint-scope-5-internals': 5.1.1-v1
       eslint: 8.38.0
       eslint-visitor-keys: 2.1.0
-      semver: 6.3.0
+      semver: 6.3.1
     dev: true
 
   /@babel/generator@7.21.4:
@@ -1368,7 +1364,7 @@ packages:
       '@babel/helper-validator-option': 7.21.0
       browserslist: 4.21.5
       lru-cache: 5.1.1
-      semver: 6.3.0
+      semver: 6.3.1
 
   /@babel/helper-compilation-targets@7.21.4(@babel/core@7.21.4):
     resolution: {integrity: sha512-Fa0tTuOXZ1iL8IeDFUWCzjZcn+sJGd9RZdH9esYVjEejGmzf+FFYQpMi/kZUk2kPy/q1H3/GPw7np8qar/stfg==}
@@ -1381,7 +1377,7 @@ packages:
       '@babel/helper-validator-option': 7.21.0
       browserslist: 4.21.5
       lru-cache: 5.1.1
-      semver: 6.3.0
+      semver: 6.3.1
     dev: true
 
   /@babel/helper-compilation-targets@7.21.4(@babel/core@7.22.9):
@@ -1395,7 +1391,7 @@ packages:
       '@babel/helper-validator-option': 7.21.0
       browserslist: 4.21.5
       lru-cache: 5.1.1
-      semver: 6.3.0
+      semver: 6.3.1
     dev: true
 
   /@babel/helper-compilation-targets@7.22.9(@babel/core@7.22.9):
@@ -3281,7 +3277,7 @@ packages:
       babel-plugin-polyfill-corejs3: 0.6.0(@babel/core@7.22.9)
       babel-plugin-polyfill-regenerator: 0.4.1(@babel/core@7.22.9)
       core-js-compat: 3.30.0
-      semver: 6.3.0
+      semver: 6.3.1
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -4601,7 +4597,7 @@ packages:
       grapheme-splitter: 1.0.4
       ignore: 5.2.4
       natural-compare-lite: 1.4.0
-      semver: 7.3.7
+      semver: 7.5.2
       tsutils: 3.21.0(typescript@5.0.4)
       typescript: 5.0.4
     transitivePeerDependencies:
@@ -4675,7 +4671,7 @@ packages:
       debug: 4.3.4
       globby: 11.1.0
       is-glob: 4.0.3
-      semver: 7.3.7
+      semver: 7.5.2
       tsutils: 3.21.0(typescript@5.0.4)
       typescript: 5.0.4
     transitivePeerDependencies:
@@ -4696,7 +4692,7 @@ packages:
       '@typescript-eslint/typescript-estree': 5.57.1(typescript@5.0.4)
       eslint: 8.38.0
       eslint-scope: 5.1.1
-      semver: 7.3.7
+      semver: 7.5.2
     transitivePeerDependencies:
       - supports-color
       - typescript
@@ -5429,7 +5425,7 @@ packages:
       '@babel/compat-data': 7.21.4
       '@babel/core': 7.22.9
       '@babel/helper-define-polyfill-provider': 0.3.3(@babel/core@7.22.9)
-      semver: 6.3.0
+      semver: 6.3.1
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -5888,7 +5884,7 @@ packages:
       js-string-escape: 1.0.1
       lodash: 4.17.21
       md5-hex: 3.0.1
-      semver: 7.3.7
+      semver: 7.5.2
       well-known-symbols: 2.0.0
     dev: true
 
@@ -5998,7 +5994,7 @@ packages:
       handlebars: 4.7.7
       json-stringify-safe: 5.0.1
       meow: 12.1.1
-      semver: 7.5.4
+      semver: 7.5.2
       split2: 4.2.0
     dev: true
 
@@ -6711,7 +6707,7 @@ packages:
       minimatch: 3.1.2
       object.values: 1.1.6
       resolve: 1.22.2
-      semver: 6.3.0
+      semver: 6.3.1
       tsconfig-paths: 3.14.2
     transitivePeerDependencies:
       - eslint-import-resolver-typescript
@@ -6754,7 +6750,7 @@ packages:
       natural-compare: 1.4.0
       nth-check: 2.1.1
       postcss-selector-parser: 6.0.11
-      semver: 7.3.7
+      semver: 7.5.2
       vue-eslint-parser: 9.1.1(eslint@8.38.0)
       xml-name-validator: 4.0.0
     transitivePeerDependencies:
@@ -7230,7 +7226,7 @@ packages:
     hasBin: true
     dependencies:
       meow: 12.1.1
-      semver: 7.5.4
+      semver: 7.5.2
     dev: true
 
   /glob-parent@5.1.2:
@@ -8227,7 +8223,7 @@ packages:
     resolution: {integrity: sha512-g3FeP20LNwhALb/6Cz6Dd4F2ngze0jz7tbzrD2wAV+o9FeNHe4rL+yK2md0J/fiSf1sa1ADhXqi5+oVwOM/eGw==}
     engines: {node: '>=8'}
     dependencies:
-      semver: 6.3.0
+      semver: 6.3.1
     dev: true
 
   /map-obj@1.0.1:
@@ -8463,7 +8459,7 @@ packages:
     dependencies:
       hosted-git-info: 4.1.0
       is-core-module: 2.11.0
-      semver: 7.5.1
+      semver: 7.5.2
       validate-npm-package-license: 3.0.4
     dev: true
 
@@ -8473,7 +8469,7 @@ packages:
     dependencies:
       hosted-git-info: 7.0.1
       is-core-module: 2.11.0
-      semver: 7.5.1
+      semver: 7.5.2
       validate-npm-package-license: 3.0.4
     dev: true
 
@@ -9292,25 +9288,12 @@ packages:
     hasBin: true
     dev: true
 
-  /semver@6.3.0:
-    resolution: {integrity: sha512-b39TBaTSfV6yBrapU89p5fKekE2m/NwnDocOVruQFS1/veMgdzuPcnOM34M6CwxW8jH/lxEa5rBoDeUwu5HHTw==}
-    hasBin: true
-
   /semver@6.3.1:
     resolution: {integrity: sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA==}
     hasBin: true
-    dev: true
 
-  /semver@7.3.7:
-    resolution: {integrity: sha512-QlYTucUYOews+WeEujDoEGziz4K6c47V/Bd+LjSSYcA94p+DmINdf7ncaUinThfvZyu13lN9OY1XDxt8C0Tw0g==}
-    engines: {node: '>=10'}
-    hasBin: true
-    dependencies:
-      lru-cache: 6.0.0
-    dev: true
-
-  /semver@7.5.1:
-    resolution: {integrity: sha512-Wvss5ivl8TMRZXXESstBA4uR5iXgEN/VC5/sOcuXdVLzcdkz4HWetIoRfG5gb5X+ij/G9rw9YoGn3QoQ8OCSpw==}
+  /semver@7.5.2:
+    resolution: {integrity: sha512-SoftuTROv/cRjCze/scjGyiDtcUyxw1rgYQSZY7XTmtR5hX+dm76iDbTH8TkLPHCQmlbQVSSbNZCPM2hb0knnQ==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
@@ -10416,7 +10399,7 @@ packages:
       espree: 9.5.1
       esquery: 1.5.0
       lodash: 4.17.21
-      semver: 7.3.7
+      semver: 7.5.2
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -10452,7 +10435,7 @@ packages:
     dependencies:
       '@volar/vue-language-core': 1.6.5
       '@volar/vue-typescript': 1.6.5(typescript@4.3.4)
-      semver: 7.5.1
+      semver: 7.5.2
       typescript: 4.3.4
     dev: true
 
@@ -10464,7 +10447,7 @@ packages:
     dependencies:
       '@volar/vue-language-core': 1.6.5
       '@volar/vue-typescript': 1.6.5(typescript@5.0.4)
-      semver: 7.5.1
+      semver: 7.5.2
       typescript: 5.0.4
     dev: true
 
@@ -10769,3 +10752,7 @@ packages:
     resolution: {integrity: sha512-9bnSc/HEW2uRy67wc+T8UwauLuPJVn28jb+GtJY16iiKWyvmYJRXVT4UamsAEGQfPohgr2q4Tq0sQbQlxTfi1g==}
     engines: {node: '>=12.20'}
     dev: true
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
