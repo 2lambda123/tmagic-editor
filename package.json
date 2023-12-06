@@ -77,7 +77,7 @@
     "serialize-javascript": "^6.0.0",
     "shx": "^0.3.4",
     "typescript": "^5.0.4",
-    "vite": "^4.4.4",
+    "vite": "^4.4.12",
     "vitepress": "1.0.0-rc.24",
     "vitest": "^0.31.1",
     "vue": "^3.3.8"
