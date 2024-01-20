@@ -22,7 +22,7 @@
     "vue": "^2.7.4"
   },
   "devDependencies": {
-    "vite": "^4.4.4",
+    "vite": "^4.5.2",
     "vue-template-compiler": "^2.7.4"
   }
 }
